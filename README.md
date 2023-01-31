@@ -1,4 +1,4 @@
-# lambda-code-to-start-stop-instances-based-on-tags.
+# AWS lambda-code-to-start-stop-instances-based-on-tags.
 
 Introduction: We have to start and stop EC2 instances based on tags during working hours to save cost.We are going to automate this by using python code (boto 3) lambda function.
 
