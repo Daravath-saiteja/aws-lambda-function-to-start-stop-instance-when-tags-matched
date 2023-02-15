@@ -38,11 +38,6 @@ pipeline {
             }
         }
         
-        stage('Deploy application to AWS') {
-            steps {
-                sh 'aws s3 cp myapp.zip s3://my-bucket'
-                sh 'aws cloudformation create-stack --stack-name my-stack --template-body file://mytemplate.yaml --parameters file://myparameters.json'
-            }
-        }
+
     }
 }
