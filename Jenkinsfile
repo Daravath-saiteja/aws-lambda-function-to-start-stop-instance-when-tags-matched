@@ -4,7 +4,7 @@ pipeline {
     environment {
         AWS_ACCESS_KEY_ID = credentials('aws-access-key-id')
         AWS_SECRET_ACCESS_KEY = credentials('aws-secret-access-key')
-        TF_WORKING_DIR = "/var/lib/jenkins/workspace/Aws-lambda-function-to-start-stop-instance-when-tags-matched"
+        TF_WORKING_DIR = "/var/lib/jenkins/workspace/my-terraform-project"
     }
 
     stages {
